@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bloodlust_scythe",
+    "customModelName": "Normal",
+    "name": "Bloodlust Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bloodlust"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 16.0,
+    "usageCount": 2400,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

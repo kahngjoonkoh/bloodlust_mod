@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_scythe",
+    "customModelName": "Normal",
+    "name": "Iron Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bloodlust"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 8.0,
+    "usageCount": 230,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

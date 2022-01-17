@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "bloodlust:netheritescythe"
+  },
+  "addition": {
+    "item": "bloodlust:bloodstone_ingot"
+  },
+  "result": {
+    "item": "bloodlust:bloodlustscythe"
+  }
+}

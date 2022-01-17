@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "condensed_heart",
+    "customModelName": "Normal",
+    "name": "Condensed Heart",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bloodlust"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 0.3,
+    "eatingSpeed": 8,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CondensedHeartFoodEaten"
+    }
+  }
+}

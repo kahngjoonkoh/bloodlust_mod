@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "golden_scythe",
+    "customModelName": "Normal",
+    "name": "Golden Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bloodlust"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 10.0,
+    "usageCount": 30,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

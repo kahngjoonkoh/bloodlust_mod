@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodlust:heart"
+    },
+    "1": {
+      "item": "bloodlust:heart"
+    },
+    "2": {
+      "item": "bloodlust:heart"
+    },
+    "3": {
+      "item": "bloodlust:heart"
+    },
+    "4": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "5": {
+      "item": "bloodlust:heart"
+    },
+    "6": {
+      "item": "bloodlust:heart"
+    },
+    "7": {
+      "item": "bloodlust:heart"
+    },
+    "8": {
+      "item": "bloodlust:heart"
+    }
+  },
+  "result": {
+    "item": "bloodlust:condensed_heart",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 10.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CondensedHeart"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BloodstoneNugget"
+    },
+    "name": "bloodstone_nugget_recipe",
+    "namespace": "mod"
+  }
+}

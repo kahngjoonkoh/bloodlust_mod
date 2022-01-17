@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_scythe",
+    "customModelName": "Normal",
+    "name": "Netherite Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bloodlust"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 2200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "bloodlust:condensed_heart"
+  },
+  "result": {
+    "item": "bloodlust:bloodstone_nugget"
+  }
+}
