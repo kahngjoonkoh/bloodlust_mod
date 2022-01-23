@@ -1,14 +1,18 @@
 {
+  "fluid.bloodlust.blood": "Blood",
   "item.bloodlust.bloodstone_ingot": "Bloodstone Ingot",
   "item.bloodlust.netheritescythe": "Netherite Scythe",
   "item.bloodlust.goldscythe": "Golden Scythe",
   "item.bloodlust.bloodlustscythe": "Bloodlust Scythe",
+  "block.bloodlust.blood": "Blood",
   "item.bloodlust.heart": "Heart",
   "item.bloodlust.diamondscythe": "Diamond Scythe",
   "item.bloodlust.stonescythe": "Stone Scythe",
   "item.bloodlust.bloodstone_nugget": "Bloodstone Nugget",
+  "item.bloodlust.bloodlust_apple": "Bloodlust Apple",
   "item.bloodlust.ironscythe": "Iron Scythe",
   "itemGroup.tabbloodlust": "Bloodlust",
+  "item.bloodlust.blood_bucket": "Blood Bucket",
   "item.bloodlust.woodscythe": "Wooden Scythe",
   "item.bloodlust.condensed_heart": "Condensed Heart"
 }

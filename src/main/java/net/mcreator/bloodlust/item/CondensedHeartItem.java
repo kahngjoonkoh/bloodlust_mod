@@ -20,7 +20,7 @@ public class CondensedHeartItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack stack) {
-		return 8;
+		return 16;
 	}
 
 	@Override

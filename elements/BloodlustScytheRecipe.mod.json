@@ -2,19 +2,42 @@
   "_fv": 24,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smithing",
+    "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "scythe",
     "recipeShapeless": false,
-    "smithingInputStack": {
-      "value": "CUSTOM:Netheritescythe"
-    },
-    "smithingInputAdditionStack": {
-      "value": "CUSTOM:BloodstoneIngot"
-    },
-    "smithingReturnStack": {
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloodstoneIngot"
+      },
+      {
+        "value": "CUSTOM:BloodstoneIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:BloodstoneIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
       "value": "CUSTOM:Bloodlustscythe"
     },
     "name": "bloodlust_scythe_recipe",

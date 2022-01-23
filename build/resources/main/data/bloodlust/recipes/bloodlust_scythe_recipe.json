@@ -1,12 +1,33 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "bloodlust:netheritescythe"
-  },
-  "addition": {
-    "item": "bloodlust:bloodstone_ingot"
+  "group": "scythe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "bloodlust:bloodstone_ingot"
+    },
+    "1": {
+      "item": "bloodlust:bloodstone_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "bloodlust:bloodstone_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
-    "item": "bloodlust:bloodlustscythe"
+    "item": "bloodlust:bloodlustscythe",
+    "count": 1
   }
 }

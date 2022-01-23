@@ -21,6 +21,8 @@ import net.mcreator.bloodlust.item.CondensedHeartItem;
 import net.mcreator.bloodlust.item.BloodstoneNuggetItem;
 import net.mcreator.bloodlust.item.BloodstoneIngotItem;
 import net.mcreator.bloodlust.item.BloodlustscytheItem;
+import net.mcreator.bloodlust.item.BloodlustAppleItem;
+import net.mcreator.bloodlust.item.BloodItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -39,6 +41,8 @@ public class BloodlustModItems {
 	public static final Item CONDENSED_HEART = register(new CondensedHeartItem());
 	public static final Item BLOODSTONE_NUGGET = register(new BloodstoneNuggetItem());
 	public static final Item BLOODSTONE_INGOT = register(new BloodstoneIngotItem());
+	public static final Item BLOOD_BUCKET = register(new BloodItem());
+	public static final Item BLOODLUST_APPLE = register(new BloodlustAppleItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

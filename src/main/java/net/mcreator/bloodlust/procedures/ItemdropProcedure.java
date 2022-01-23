@@ -12,6 +12,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.bloodlust.init.BloodlustModItems;
 
@@ -36,6 +38,16 @@ public class ItemdropProcedure {
 			return;
 		if (sourceentity instanceof Player && (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 				.getItem() == BloodlustModItems.BLOODLUSTSCYTHE) {
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 1, 1));
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 2));
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 2));
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 2));
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 3));
 			if (Math.random() <= 0.9) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()),
